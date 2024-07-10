@@ -5,15 +5,15 @@ export default function SearchBar() {
 
   return (
     <form className="search-form">
-      <input
-        type="text"
-        placeholder="Rechercher une ville ou un pays..."
-        value={searchValue}
-        onChange={(e) => setSearchValue(e.target.value)}
-      ></input>
       <button>
         <i className="fa fa-search"></i>
       </button>
+      <input
+        type="text"
+        placeholder="Rechercher un lieu"
+        value={searchValue}
+        onChange={(e) => setSearchValue(e.target.value)}
+      ></input>
     </form>
   );
 }

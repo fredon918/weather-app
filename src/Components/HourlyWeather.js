@@ -1,14 +1,284 @@
 export default function HourlyWeather() {
   return (
-    <div>
-      {/* Faire une liste, une table à la HTML, avec les infos heures par heure. L'heure, température, précipitation, humidité, etc
-       */}
-      <h1>HOURLY WEATHER</h1>
-      <p>Heure 00:00, 13:00, 14:00...</p>
-      <p>Température en celcius</p>
-      <img src="soleil/nuage" alt="soleil.. nuage..."></img>
-      <p>Pourcentage de précipitation</p>
-      <p>Vent</p>
+    <div className="hourly-weather">
+      {/* Feeder la table avec un array */}
+
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Heure</th>
+            <th scope="col">Température (°C)</th>
+            <th scope="col">Condition Météo</th>
+            <th scope="col">Précipitation (%)</th>
+            <th scope="col">Vent (km/h)</th>
+            <th scope="col">Humidex</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>00:00</td>
+            <td>15°</td>
+            <td>
+              <img src="" alt=""></img>
+            </td>
+            <td>30%</td>
+            <td>20 NE</td>
+            <td>24</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }

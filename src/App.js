@@ -5,7 +5,7 @@ import HourlyWeather from "./Components/HourlyWeather";
 
 export default function App() {
   return (
-    <div>
+    <div className="container">
       <SearchBar></SearchBar>
       <CurrentWeather></CurrentWeather>
       <WeekWeather></WeekWeather>
