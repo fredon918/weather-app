@@ -66,10 +66,10 @@ button {
   grid-row: 3 / 4;
 }
 
-li {
+.summary-day {
+  background-color: #2d5188;
   list-style-type: none;
   text-align: center;
-  background-color: #2d5188;
   padding: 8px 40px;
 }
 
